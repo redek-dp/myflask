@@ -24,9 +24,9 @@ req=requests.get(url)
 json_form=req.json()
 
 
-#@app.route("/")
+@app.route("/")
 
-@app.route('/')
+@app.route('/index')
 def index():
     return render_template('index.html',data=json_form)
 
