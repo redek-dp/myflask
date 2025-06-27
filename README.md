@@ -1,42 +1,18 @@
-# My Awesome Flask Project
+# Como Configurar um Servidor Flask Básico em Python
 
-## A step-by-step tutorial for deploying Flask apps to the live web using Vercel.
-
-### Deployed Link: [Live Demo](https://flask-app-jade.vercel.app/)
-
-### Project Walkthrough: [YouTube Tutorial](https://youtu.be/miQmOlPF_Gs)
-
-### Vercel: [Learn More About Vercel](https://vercel.com)
-
-### Technologies Used:
-- Flask
-- Python 3.9
-- Any additional libraries you used
-
-### Folder Structure (Highlighted):
+### Primeiro, certifique-se de que o Python está instalado no seu sistema. Depois, abra o terminal e execute o comando.
 ```
-project-root/
-│
-├── app.py
-├── vercel.json
-├── requirements.txt
-├── static/
-│   ├── css/
-│   │   └── style.css
-│   ├── js/
-│   │   └── script.js
-│   └── images/
-│
-└── templates/
-    └── index.html
+pip install flask
 ```
 
 
-### How to Clone & Run:
-1. Clone Repo: `git clone https://github.com/CodingCraftYT/Flask-App.git`
-2. Install Dependencies: `cd project-root && pip install -r requirements.txt`
-3. Run Locally: `python app.py`
+### Edita Salve o arquivo app.py e volte ao terminal. Execute o comando.
+```
+python app.py
+```
 
-### Ending: 
-Feel free to reach out with questions or contribute to this project!
+### Você verá uma mensagem indicando que o servidor está rodando.
+```
+http://127.0.0.1:5000/
+```
 
