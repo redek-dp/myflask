@@ -12,7 +12,7 @@ https://www.virustotal.com/api/v3/files
 
 ### Copie sua chave de API e salve-a em um arquivo .env para segurança.
 ```
-QWEN_API_KEY=sua_chave_aqui
+VT_API_KEY=sua_chave_aqui
 ```
 
 ### Edita Salve o arquivo app.py e volte ao terminal. Execute o comando.
