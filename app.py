@@ -1,20 +1,20 @@
 from flask import Flask, request, jsonify
 import requests
-import os
-from dotenv import load_dotenv
 
-load_dotenv()
+API_KEY = 'sua_chave_api_aqui'
+VT_URL = 'https://www.virustotal.com/api/v3/files'
+
 app = Flask(__name__)
 
-@app.route('/chat', methods=['POST'])
-def chat():
-    user_message = request.json.get('message')
-    response = requests.post(
-        'https://api.qwen.com/v1/chat ',
-        headers={'Authorization': f'Bearer {os.getenv("QWEN_API_KEY")}'},
-        json={'prompt': user_message}
-    )
-    return jsonify(response.json())
-
-if __name__ == '__main__':
-    app.run(debug=True)  
+@app.route('/scan', methods=['POST'])
+def scan_file():
+    if 'file' not in request.files:
+        return jsonify({'error': 'Nenhum arquivo enviado'}), 400
+    file = request.files['file']
+    files = {'file': (file.filename, file.stream)}
+    headers = {'x-apikey': API_KEY}
+    response = requests.post(VT_URL, files=files, headers=headers)
+    if response.status_code == 200:
+        result = response.json()
+        return jsonify(result), 200
+    return jsonify({'error': 'Erro ao escanear o arquivo'}), 500
