@@ -1,19 +1,47 @@
-# My Awesome Flask Project
+<img src="https://www.svgrepo.com/show/288271/flask-chemistry.svg" min-width="150px" max-width="150px" width="150px" align="right" alt="">
 
-## A step-by-step tutorial for deploying Flask apps to the live web using Vercel.
+# FLASK PROJECT | SERVIÇOS WEB APPS DEVELOPER.
 
-### Deployed Link: [Live Demo](https://flask-app-jade.vercel.app/)
+`FLASK PROJECT` A STEP-BY-STEP TUTORIAL FOR DEPLOYING FLASK APPS TO THE LIVE WEB USING VERCEL...
 
-### Project Walkthrough: [YouTube Tutorial](https://youtu.be/miQmOlPF_Gs)
+----------
 
-### Vercel: [Learn More About Vercel](https://vercel.com)
+## LINK: FLASK
 
-### Technologies Used:
-- Flask
-- Python 3.9
-- Any additional libraries you used
+```bash
+https://dav7.pages.dev/
+```
 
-### Folder Structure (Highlighted):
+--------
+## 1. CLONE REPO:
+
+```bash
+git clone https://github.com/redek-dp/myflask.git
+```
+--------
+
+## 2. CD PASTA:
+
+```bash
+cd myflask
+```
+--------
+
+## 3. PIP INSTALL:
+
+```bash
+pip install -r requirements.txt
+```
+--------
+
+## 4. RUM LOCAL:
+
+```bash
+python app.py
+```
+--------
+
+## FOLDER STRUCTURE:
 ```
 project-root/
 │
@@ -31,12 +59,46 @@ project-root/
     └── index.html
 ```
 
+--------
 
-### How to Clone & Run:
-1. Clone Repo: `git clone https://github.com/CodingCraftYT/Flask-App.git`
-2. Install Dependencies: `cd project-root && pip install -r requirements.txt`
-3. Run Locally: `python app.py`
+### DOAR COM
 
-### Ending: 
-Feel free to reach out with questions or contribute to this project!
+[![DOAR COM](https://img.shields.io/badge/DOAR%20COM-PagBank-295.svg?logo=pagseguro&style=for-the-badge&logoColor=f5f5f5)](https://pag.ae/7Y3uUnhg8)
+
+--------
+
+### CONECTE-SE COM NÓS:
+
+[<img height="30" src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="davidsonbpe | YouTube" />][youtube]
+[<img height="30" src="https://img.shields.io/badge/DAV7.STORE-555?style=for-the-badge&logo=cloudways&logoColor=white" alt="DAV7.STORE" />][dav7]
+[<img height="30" src="https://img.shields.io/badge/davidsonbpe-666?style=for-the-badge&logo=dash&logoColor=fff" alt="davidsonbpe" />][davidsonbpe]
+[<img height="30" src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="davidsonbpe | Instagram" />][instagram]
+[<img height="30" src="https://img.shields.io/badge/CodePen-003333?style=for-the-badge&logo=c&logoColor=white" alt="davidsonbpe | CodePen" />][CodePen]
+[<img height="30" src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="davidsonbpe | Facebook" />][facebook]
+[<img height="30" src="https://img.shields.io/badge/GitHub-003333?style=for-the-badge&logo=github&logoColor=white" alt="davidsonbpe | GitHub" />][github]
+[<img height="30" src="https://img.shields.io/badge/huggingface-6C55C1?style=for-the-badge&logo=huggingface&logoColor=75CB22" alt="Kexel | HuggingFace" />][huggingface]
+[<img height="30" src="https://img.shields.io/badge/stackblitz-A89BDA?style=for-the-badge&logo=stackblitz&logoColor=fff" alt="StackBlitz" />][stackblitz]
+[<img height="30" src="https://img.shields.io/badge/Pinterest-C2464B?style=for-the-badge&logo=Pinterest&logoColor=white" alt="Pinterest" />][pinterest]
+[<img height="30" src="https://img.shields.io/badge/Twitter-222?style=for-the-badge&logo=x&logoColor=white" alt="davidsonbpe | Twitter" />][twitter]
+<a href="mailto:dev7.capital366@passinbox.com" alt="Email">
+<img height="30" src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=Minutemailer&logoColor=white" /></a>
+
+<br />
+
+<a href="https://dav7.pages.dev/" align="right" alt="Visitor count">
+<img height="30" src="https://raw.githubusercontent.com/davserv/d-framework/refs/heads/img-iso/count.svg" /></a>
+
+<br />
+
+[dav7]: https://dav7.pages.dev/
+[davidsonbpe]: https://davidsonbpe.blogspot.com/
+[youtube]: https://www.youtube.com/channel/UCHqvw9v2Fp6o006lUskoigg/
+[instagram]: https://www.instagram.com/davidsonbpe/
+[facebook]: https://www.facebook.com/decomrradio/
+[CodePen]: https://codepen.io/davidsonbpe/
+[github]: https://github.com/davidsonbpe/
+[huggingface]: https://huggingface.co/kexel
+[stackblitz]: https://stackblitz.com/@redek-dp
+[pinterest]: https://br.pinterest.com/davidsonbpe/
+[twitter]: https://twitter.com/davidsonbpe
 
