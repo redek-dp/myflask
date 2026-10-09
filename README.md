@@ -46,7 +46,6 @@ python app.py
 project-root/
 │
 ├── app.py
-├── vercel.json
 ├── requirements.txt
 ├── static/
 │   ├── css/
